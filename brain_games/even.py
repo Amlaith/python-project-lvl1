@@ -16,7 +16,10 @@ def play(name):
             print("Correct!")
             correct_acc = correct_acc + 1
             continue
-        print("'{}' is wrong answer ;(. Correct answer was '{}'.".format(guess, answer))
+        print(
+            "'{}' is wrong answer ;(. Correct answer was '{}'."
+            .format(guess, answer)
+            )
         print("Let's try again, {}!".format(name))
         return None
     print("Congratulations, {}!".format(name))

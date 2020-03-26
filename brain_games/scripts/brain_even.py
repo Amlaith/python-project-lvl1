@@ -9,5 +9,6 @@ def main():
     name = welcome_user()
     play(name)
 
+
 if __name__ == "__main__":
     main()
