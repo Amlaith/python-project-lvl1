@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "Amlaith_brain_game"
-version = "0.2.1"
+name = "amlaith_brain_game"
+version = "0.2.2"
 description = ""
 authors = ["Amlaith <47604982+Amlaith@users.noreply.github.com>"]
 packages = [
