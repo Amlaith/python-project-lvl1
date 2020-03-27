@@ -1,9 +1,9 @@
 from ..engine import play
-from ..games.even import even_generator, rules
+from ..games.calc import calc_generator, rules
 
 
 def main():
-    play(even_generator, rules)
+    play(calc_generator, rules)
 
 
 if __name__ == "__main__":

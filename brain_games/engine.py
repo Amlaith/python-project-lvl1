@@ -1,17 +1,21 @@
-from random import randint
+from .cli import print_welcome, welcome_user
 
 
-def play(name):
-    answers = {
-        0: "yes",
-        1: "no",
-    }
+def play(generator, rules):
+    print_welcome()
+    print(rules)
+
+    print()
+
+    name = welcome_user()
+
+    print()
+
     correct_acc = 0
     while correct_acc < 3:
-        num = randint(1, 100)
-        print("Question:", num)
+        question, answer = generator()
+        print("Question: " + question)
         guess = input("Your answer: ")
-        answer = answers[num % 2]
         if guess == answer:
             print("Correct!")
             correct_acc = correct_acc + 1
