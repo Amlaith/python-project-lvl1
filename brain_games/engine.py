@@ -1,7 +1,7 @@
 from .cli import print_welcome, welcome_user
 
 
-def play(generator, rules):
+def play(rules, generator):
     print_welcome()
     print(rules)
 

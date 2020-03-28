@@ -3,7 +3,7 @@ from ..games.even import even_generator, rules
 
 
 def main():
-    play(even_generator, rules)
+    play(rules, even_generator)
 
 
 if __name__ == "__main__":
