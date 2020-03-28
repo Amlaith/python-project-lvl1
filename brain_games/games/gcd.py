@@ -9,5 +9,5 @@ def gcd_generator():
     a = randint(1, 101)
     b = randint(1, 101)
     question = " ".join((str(a), str(b)))
-    answer = str(gcd(a,b))
+    answer = str(gcd(a, b))
     return question, answer
