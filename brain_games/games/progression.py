@@ -10,7 +10,7 @@ def progression_generator():
 
     sequence = [start + step * n for n in range(10)]
 
-    missing = randint(1, 10)
+    missing = randint(0, 9)
     answer = str(sequence[missing])
     sequence[missing] = ".."
     question = " ".join(map(str, sequence))
