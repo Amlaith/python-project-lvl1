@@ -4,7 +4,7 @@ from random import randint
 rules = "What number is missing in the progression?"
 
 
-def progression_generator():
+def generator():
     start = randint(1, 10)
     step = randint(1, 10)
 

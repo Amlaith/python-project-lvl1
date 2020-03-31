@@ -1,9 +1,9 @@
 from ..engine import play
-from ..games.gcd import rules, gcd_generator
+from ..games.gcd import rules, generator
 
 
 def main():
-    play(rules, gcd_generator)
+    play(rules, generator)
 
 
 if __name__ == "__main__":

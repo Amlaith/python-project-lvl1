@@ -5,7 +5,7 @@ from operator import add, mul, sub
 rules = "What is the result of the expression?"
 
 
-def calc_generator():
+def generator():
     operators = ("+", "*", "-")
     operator_foos = {
         "+": add,

@@ -1,10 +1,10 @@
 from ..engine import play
-from ..games.progression import rules, generator
+from ..games.prime import rules, generator
 
 
 def main():
     play(rules, generator)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

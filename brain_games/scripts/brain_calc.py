@@ -1,9 +1,9 @@
 from ..engine import play
-from ..games.calc import calc_generator, rules
+from ..games.calc import generator, rules
 
 
 def main():
-    play(rules, calc_generator)
+    play(rules, generator)
 
 
 if __name__ == "__main__":

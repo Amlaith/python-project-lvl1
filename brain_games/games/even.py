@@ -1,10 +1,10 @@
 from random import randint
 
 
-rules = "Answer \"yes\" if number even otherwise answer \"no\"."
+rules = "Answer \"yes\" if number is even, otherwise answer \"no\"."
 
 
-def even_generator():
+def generator():
     answers = {
         0: "yes",
         1: "no",
