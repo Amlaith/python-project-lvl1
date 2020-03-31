@@ -12,28 +12,28 @@ Answer "yes" if number is even. Otherwise answer "no".
 
 `$ brain-even`
 
-[![asciicast](https://asciinema.org/a/YboAfxhaKpgsoFVbooWXZ4U3x.svg)](https://asciinema.org/a/YboAfxhaKpgsoFVbooWXZ4U3x)
+[![asciicast](https://asciinema.org/a/Ap2yV6buH0utIA3Y6OLomWYJ7.svg)](https://asciinema.org/a/Ap2yV6buH0utIA3Y6OLomWYJ7)
 #### Calc
 What is the result of the expression?
 
 `$ brain-calc`
 
-[![asciicast](https://asciinema.org/a/UlFRTP1hKQ17iIZF5TynQOXXK.svg)](https://asciinema.org/a/UlFRTP1hKQ17iIZF5TynQOXXK)
+[![asciicast](https://asciinema.org/a/bDuFo9f6ZRN6sIoZ7Q7N4fRFJ.svg)](https://asciinema.org/a/bDuFo9f6ZRN6sIoZ7Q7N4fRFJ)
 #### Gcd
 Find the greatest common divisor of given numbers.
 
 `$ brain-gcd`
 
-[![asciicast](https://asciinema.org/a/eASZaKDbpnfVxMs2GtH24OiIM.svg)](https://asciinema.org/a/eASZaKDbpnfVxMs2GtH24OiIM)
+[![asciicast](https://asciinema.org/a/EnE7mCrFA3RgsWr7egMqF7HM7.svg)](https://asciinema.org/a/EnE7mCrFA3RgsWr7egMqF7HM7)
 #### Progression
 What number is missing in the progression?
 
 `$ brain-progression`
 
-[![asciicast](https://asciinema.org/a/BzfJO2qpg8EZg3dbKzeEuDHfX.svg)](https://asciinema.org/a/BzfJO2qpg8EZg3dbKzeEuDHfX)
+[![asciicast](https://asciinema.org/a/lL0cY2ZbnhKC8Dg9zSHxuBF6x.svg)](https://asciinema.org/a/lL0cY2ZbnhKC8Dg9zSHxuBF6x)
 #### Prime
 Answer "yes" if given number is prime. Otherwise answer "no".
 
 `$ brain-prime`
 
-[![asciicast](https://asciinema.org/a/bCLP8e5OOQ4Xm6qNzp0Lry7kW.svg)](https://asciinema.org/a/bCLP8e5OOQ4Xm6qNzp0Lry7kW)
+[![asciicast](https://asciinema.org/a/IRfVVuAzTrb2VA0hv7DzE2v0g.svg)](https://asciinema.org/a/IRfVVuAzTrb2VA0hv7DzE2v0g)
