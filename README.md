@@ -4,7 +4,7 @@
 `pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ amlaith-brain-game`
 
 #### Even
-Answer "yes" if number is even, otherwise answer "no".
+Answer "yes" if number is even. Otherwise answer "no".
 
 `>>> brain-even`
 
