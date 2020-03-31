@@ -1,5 +1,11 @@
 # python-project-lvl1
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/6bf2c7a82da840aacf67/maintainability)](https://codeclimate.com/github/Amlaith/python-project-lvl1/maintainability)
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/6bf2c7a82da840aacf67/test_coverage)](https://codeclimate.com/github/Amlaith/python-project-lvl1/test_coverage)
+
+[![Build Status](https://travis-ci.com/Amlaith/python-project-lvl1.svg?branch=master)](https://travis-ci.com/Amlaith/python-project-lvl1)
+
 #### Install
 `pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ amlaith-brain-game`
 
@@ -33,7 +39,3 @@ Answer "yes" if given number is prime. Otherwise answer "no".
 `>>> brain-prime`
 
 [![asciicast](https://asciinema.org/a/bCLP8e5OOQ4Xm6qNzp0Lry7kW.svg)](https://asciinema.org/a/bCLP8e5OOQ4Xm6qNzp0Lry7kW)
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/6bf2c7a82da840aacf67/maintainability)](https://codeclimate.com/github/Amlaith/python-project-lvl1/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/6bf2c7a82da840aacf67/test_coverage)](https://codeclimate.com/github/Amlaith/python-project-lvl1/test_coverage)
-[![Build Status](https://travis-ci.com/Amlaith/python-project-lvl1.svg?branch=master)](https://travis-ci.com/Amlaith/python-project-lvl1)
