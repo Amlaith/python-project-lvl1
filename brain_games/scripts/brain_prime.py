@@ -1,9 +1,9 @@
 from ..engine import play
-from ..games.prime import rules, generator
+from ..games import prime
 
 
 def main():
-    play(rules, generator)
+    play(prime)
 
 
 if __name__ == "__main__":

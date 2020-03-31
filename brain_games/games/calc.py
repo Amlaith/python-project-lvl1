@@ -2,7 +2,7 @@ from random import randint, choice
 from operator import add, mul, sub
 
 
-rules = "What is the result of the expression?"
+RULES = "What is the result of the expression?"
 
 
 def generator():
@@ -17,4 +17,4 @@ def generator():
     operator = choice(operators)
     question = " ".join((str(a), operator, str(b)))
     answer = str(operator_foos[operator](a, b))
-    return question, answer
+    return (question, answer)

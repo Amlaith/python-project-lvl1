@@ -1,9 +1,9 @@
 from ..engine import play
-from ..games.even import generator, rules
+from ..games import even
 
 
 def main():
-    play(rules, generator)
+    play(even)
 
 
 if __name__ == "__main__":

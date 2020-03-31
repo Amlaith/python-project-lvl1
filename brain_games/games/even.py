@@ -1,7 +1,7 @@
 from random import randint
 
 
-rules = "Answer \"yes\" if number is even, otherwise answer \"no\"."
+RULES = "Answer \"yes\" if number is even, otherwise answer \"no\"."
 
 
 def generator():

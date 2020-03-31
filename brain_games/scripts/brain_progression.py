@@ -1,9 +1,9 @@
 from ..engine import play
-from ..games.progression import rules, generator
+from ..games import progression
 
 
 def main():
-    play(rules, generator)
+    play(progression)
 
 
 if __name__ == '__main__':

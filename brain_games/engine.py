@@ -1,9 +1,9 @@
 from .cli import print_welcome, welcome_user
 
 
-def play(rules, generator):
+def play(game):
     print_welcome()
-    print(rules)
+    print(game.RULES)
 
     print()
 
@@ -13,7 +13,7 @@ def play(rules, generator):
 
     correct_acc = 0
     while correct_acc < 3:
-        question, answer = generator()
+        question, answer = game.generator()
         print("Question: " + question)
         guess = input("Your answer: ")
         if guess == answer:
