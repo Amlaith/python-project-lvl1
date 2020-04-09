@@ -1,4 +1,5 @@
-from .cli import print_welcome, welcome_user
+from brain_games.cli import print_welcome, welcome_user
+import prompt
 
 
 def play(game):
@@ -11,11 +12,12 @@ def play(game):
 
     print()
 
+    ROUNDS = 3
     correct_acc = 0
-    while correct_acc < 3:
-        question, answer = game.generator()
+    while correct_acc < ROUNDS:
+        question, answer = game.generate_round()
         print("Question: " + question)
-        guess = input("Your answer: ")
+        guess = prompt.string("Your answer: ")
         if guess == answer:
             print("Correct!")
             correct_acc = correct_acc + 1
@@ -25,5 +27,5 @@ def play(game):
             .format(guess, answer)
             )
         print("Let's try again, {}!".format(name))
-        return None
+        return
     print("Congratulations, {}!".format(name))
